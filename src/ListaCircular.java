@@ -3,6 +3,11 @@ public class ListaCircular<T> {
     private No<T> calda;
     private int tamanhoLista;
 
+    public ListaCircular() {
+        this.cabeca = null;
+        this.calda = null;
+        this.tamanhoLista = 0;
+    }
     public int size() {
         return tamanhoLista;
     }
@@ -43,11 +48,7 @@ public class ListaCircular<T> {
         return s;
     }
 
-    public ListaCircular() {
-        this.cabeca = null;
-        this.calda = null;
-        this.tamanhoLista = 0;
-    }
+
 
     public void remove(int index) {
         if(index >= tamanhoLista) {
