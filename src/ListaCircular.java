@@ -29,4 +29,24 @@ public class ListaCircular<T> {
     public T get(int index) {
         return this.getNo(index).getConteudo();
     }
+
+    public void remove(int index) {
+        if(index >= tamanhoLista) {
+            throw new IndexOutOfBoundsException("O indice é maior que o tamanho da lista");
+        } else {
+            No<T> aux = this.calda;
+            if(index == 0) {
+                this.calda = this.calda.getNoProximo();
+                this.cabeca.setNoProximo(this.calda);
+            }else if(index == 1){
+                this.calda.setNoProximo(this.calda.getNoProximo().getNoProximo());
+            } else {
+                for (int i =0;i<index-1; i++) {
+                    aux = aux.getNoProximo();
+                }
+                aux.setNoProximo(aux.getNoProximo().getNoProximo());
+            }
+            this.tamanhoLista--;
+        }
+    }
 }
