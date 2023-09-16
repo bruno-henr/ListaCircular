@@ -30,6 +30,19 @@ public class ListaCircular<T> {
         return this.getNo(index).getConteudo();
     }
 
+    @Override
+    public String toString() {
+        String s = "";
+
+        No<T> aux = this.calda;
+        for(int i = 0; i < size(); i++) {
+            s += "[No { conteudo = "+aux.getConteudo()+ "} ] -->";
+            aux = aux.getNoProximo();
+        }
+        s += !this.isEmpty() ? "(Retorna ao inicio)" : "[null]";
+        return s;
+    }
+
     public ListaCircular() {
         this.cabeca = null;
         this.calda = null;

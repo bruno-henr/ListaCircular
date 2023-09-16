@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97841257-9831-4b35-85ea-e51b5e66337b" name="Changes" comment="implementando metodo remove">
+    <list default="true" id="97841257-9831-4b35-85ea-e51b5e66337b" name="Changes" comment="implementando metodo add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ListaCircular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaCircular.java" afterDir="false" />
     </list>
@@ -71,13 +71,22 @@
       <option name="project" value="LOCAL" />
       <updated>1694888557347</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implementando metodo add">
+      <option name="closed" value="true" />
+      <created>1694896357274</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694896357274</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="criando Classe No e seus metodos e atributos" />
     <MESSAGE value="criando Classe ListaCircular com seus metodos e atributos" />
     <MESSAGE value="implementando metodo remove" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementando metodo remove" />
+    <MESSAGE value="implementando metodo add" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementando metodo add" />
   </component>
 </project>
